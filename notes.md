@@ -26,3 +26,25 @@ rails g model article title content:text slug
 ```bash
 rails db:migrate
 ```
+
+```bash
+rails c
+```
+
+```ruby
+Article.count
+```
+
+```ruby
+Article.create
+```
+
+```ruby
+Article.first.title
+```
+
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/2120455f0ea31911add1351be1d161ca97ba7f9a
+
+```bash
+rspec --format=documentation
+```
