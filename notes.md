@@ -13,3 +13,5 @@ bundle
 ```bash
 rails generate rspec:install
 ```
+
+- https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md#rspec
