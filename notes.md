@@ -48,3 +48,5 @@ Article.first.title
 ```bash
 rspec --format=documentation
 ```
+
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/72d92f6017b3cd398c674319b924c03d036739e7
