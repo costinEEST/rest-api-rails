@@ -9,3 +9,7 @@ rails new api -T --api
 ```bash
 bundle
 ```
+
+```bash
+rails generate rspec:install
+```
