@@ -22,3 +22,7 @@ rails generate rspec:install
 ```bash
 rails g model article title content:text slug
 ```
+
+```bash
+rails db:migrate
+```
