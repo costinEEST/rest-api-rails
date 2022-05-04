@@ -55,3 +55,8 @@ rspec --format=documentation
 - https://guides.rubyonrails.org/active_record_validations.html#uniqueness
 - https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#sequences
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/2c72abbd0a323aa31931b5e360697d14ef2b642c
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/3638dc0d3ef91c22fcb846a45b151b8d37dcc745
+
+```bash
+rails routes -g articles
+```
