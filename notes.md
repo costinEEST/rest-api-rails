@@ -62,3 +62,17 @@ rails routes -g articles
 ```
 
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/abb3e697a1f41f071393fdfc529f443b62ff5070
+- https://driggl.com/blog/a/from-activemodel-serializers-to-fast-jsonapi
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/1154189a57c28b7c907a99734b6055c8d62609cd
+
+```bash
+rails g serializer article title content slug
+```
+
+```bash
+brew install jq
+```
+
+```bash
+curl http://localhost:3000/articles | jq
+```
