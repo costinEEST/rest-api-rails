@@ -60,3 +60,5 @@ rspec --format=documentation
 ```bash
 rails routes -g articles
 ```
+
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/abb3e697a1f41f071393fdfc529f443b62ff5070
