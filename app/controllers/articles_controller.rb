@@ -9,6 +9,8 @@ class ArticlesController < ApplicationController
 
 	def show
     render json: serializer.new(Article.find(params[:id]))
+	# rescue ActiveRecord::RecordNotFound => e
+	# 	render json: { message: e.message, detail: 'A nicely formatted response' }
   end
 
 	def serializer

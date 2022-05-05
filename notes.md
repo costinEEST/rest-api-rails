@@ -88,3 +88,7 @@ curl --location -g --request GET 'http://localhost:3000/articles?page[number]=2&
 ```
 
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/17aa7b43007bc1ffd8174b25f4f039bbbe27c1ad
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/e6ae7c7c65b8c72e2d96b2379ebaa3853d457183
+- https://driggl.com/blog/a/json-api-errors-handler
+- https://github.com/driggl/jsonapi_errors_handler
+- https://driggl.com/blog/a/handling-exceptions-in-rails-applications
