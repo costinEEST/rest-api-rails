@@ -7,6 +7,10 @@ class ArticlesController < ApplicationController
 		render_collection(paginate(Article.recent))
 	end
 
+	def show
+    render json: serializer.new(Article.find(params[:id]))
+  end
+
 	def serializer
 		ArticleSerializer
 	end

@@ -86,3 +86,5 @@ curl http://localhost:3000/articles | jq
 ```bash
 curl --location -g --request GET 'http://localhost:3000/articles?page[number]=2&page[size]=1' | jq
 ```
+
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/17aa7b43007bc1ffd8174b25f4f039bbbe27c1ad
