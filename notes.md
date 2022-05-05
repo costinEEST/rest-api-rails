@@ -79,3 +79,4 @@ curl http://localhost:3000/articles | jq
 
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/2c25afc73677a319a4cdb01a7029c8147ab7a412
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/da3d7346224b2c633b27e7f3b8a2514187751956
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/2f66b0518669c0e8d968464e606b1b3c14898354
