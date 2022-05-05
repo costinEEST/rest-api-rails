@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 class ArticlesController < ApplicationController
+	include Paginable
+
   def index
-		render json: serializer.new(Article.recent), status: :ok
+		render_collection(paginate(Article.recent))
 	end
 
 	def serializer

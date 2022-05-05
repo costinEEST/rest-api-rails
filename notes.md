@@ -80,3 +80,9 @@ curl http://localhost:3000/articles | jq
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/2c25afc73677a319a4cdb01a7029c8147ab7a412
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/da3d7346224b2c633b27e7f3b8a2514187751956
 - https://github.com/driggl/rails-api-complete-guide-v2/commit/2f66b0518669c0e8d968464e606b1b3c14898354
+- https://github.com/driggl/rails-api-complete-guide-v2/commit/9c87213934774e64d40e70aba85adbb5117585ac
+- [jsom-pagination](https://github.com/useo-pl/jsom-pagination) is a wrapper over [pagy](https://github.com/ddnexus/pagy). `JSOM::Pagination` is better than [kaminari](https://github.com/kaminari/kaminari) or [will_paginate](https://github.com/mislav/will_paginate)
+
+```bash
+curl --location -g --request GET 'http://localhost:3000/articles?page[number]=2&page[size]=1' | jq
+```
