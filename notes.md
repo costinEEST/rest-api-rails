@@ -92,3 +92,5 @@ curl --location -g --request GET 'http://localhost:3000/articles?page[number]=2&
 - https://driggl.com/blog/a/json-api-errors-handler
 - https://github.com/driggl/jsonapi_errors_handler
 - https://driggl.com/blog/a/handling-exceptions-in-rails-applications
+- https://driggl.com/blog/a/token-based-authorization
+- [Github OAuth App](https://github.com/settings/applications/1898650)
