@@ -95,3 +95,7 @@ curl --location -g --request GET 'http://localhost:3000/articles?page[number]=2&
 - https://driggl.com/blog/a/token-based-authorization
 - [Github OAuth App](https://github.com/settings/applications/1898650)
 - [The complete guide to protecting your APIs with OAuth2](https://news.ycombinator.com/item?id=31004928)
+
+```bash
+rails g model user login name url avatar_url provider
+```
