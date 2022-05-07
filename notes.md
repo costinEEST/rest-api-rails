@@ -101,3 +101,5 @@ rails g model user login name url avatar_url provider
 ```
 
 - https://github.com/driggl/rails-api-complete-guide/commit/50ce007ab1d88fc970ed3bb719c19a5c2e155074
+- https://driggl.com/blog/a/using-double-object-in-automatic-tests
+- https://github.com/driggl/rails-api-complete-guide/commit/5bf8fa3eaf88fde8cd481acd4c9ed9c830b2be39
