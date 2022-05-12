@@ -103,3 +103,18 @@ rails g model user login name url avatar_url provider
 - https://github.com/driggl/rails-api-complete-guide/commit/50ce007ab1d88fc970ed3bb719c19a5c2e155074
 - https://driggl.com/blog/a/using-double-object-in-automatic-tests
 - https://github.com/driggl/rails-api-complete-guide/commit/5bf8fa3eaf88fde8cd481acd4c9ed9c830b2be39
+- https://betterprogramming.pub/how-to-hide-your-api-keys-c2b952bc07e6
+- [How to merge Ruby hashes](https://stackoverflow.com/a/8415328)
+- http://octokit.github.io/octokit.rb/#Application_Authentication
+
+```ruby
+client = Octokit::Client.new(client_id: 'id_from_env_file', client_secret: 'secret_from_env_file')
+```
+
+```ruby
+client.exchange_code_for_token('invalid_code')
+```
+
+```ruby
+client.user.class.name # "Sawyer::Resource"
+```
