@@ -16,7 +16,7 @@ describe UserAuthenticator do
 
       it 'should raise an error' do
         expect{ subject }.to raise_error(
-          UserAuthenticator::Oauth::AuthenticationError
+          UserAuthenticator::AuthenticationError
         )
         expect(authenticator.user).to be_nil
       end
