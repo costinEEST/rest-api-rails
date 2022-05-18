@@ -130,3 +130,7 @@ rails db:migrate
 ```
 
 - https://github.com/driggl/rails-api-complete-guide/commit/034e5b7f68293b2f366ad0d673fa209ff7f9c9a3
+
+```bash
+rails g controller access_tokens
+```
