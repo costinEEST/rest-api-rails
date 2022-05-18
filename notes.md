@@ -124,3 +124,7 @@ client.user.class.name # "Sawyer::Resource"
 ```bash
 rails g model access_token token user:references
 ```
+
+```bash
+rails db:migrate
+```
