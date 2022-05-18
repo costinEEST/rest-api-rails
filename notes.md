@@ -128,3 +128,5 @@ rails g model access_token token user:references
 ```bash
 rails db:migrate
 ```
+
+- https://github.com/driggl/rails-api-complete-guide/commit/034e5b7f68293b2f366ad0d673fa209ff7f9c9a3

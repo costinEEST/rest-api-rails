@@ -49,7 +49,12 @@ describe UserAuthenticator do
         user = create :user, user_data
         expect{ subject }.not_to change{ User.count }
         expect(authenticator.user).to eq(user)
-      end      
+      end 
+      
+      it "should create and set user's access token" do
+        expect{ subject }.to change{ AccessToken.count }.by(1)
+        expect(authenticator.access_token).to be_present
+      end
     end
   end
 end
