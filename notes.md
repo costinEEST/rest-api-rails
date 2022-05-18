@@ -118,3 +118,5 @@ client.exchange_code_for_token('invalid_code')
 ```ruby
 client.user.class.name # "Sawyer::Resource"
 ```
+
+- https://github.com/driggl/rails-api-complete-guide/commit/5d8a58ac1e1237fbd51ce995e0196c0b190b0987
