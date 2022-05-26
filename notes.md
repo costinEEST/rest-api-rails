@@ -137,3 +137,9 @@ rails g controller access_tokens
 
 - https://github.com/driggl/rails-api-complete-guide/commit/e0ce227575f8fc42dafb92291af00e9a3ff8e709
 - https://github.com/driggl/rails-api-complete-guide/commit/49c4cf5c22f9d782fcfe05518e1bd5f64bb7b03e
+- https://github.com/dudo/create_kustomized_namespace/blob/master/manifest.rb#L94
+- [OctoKit Ruby Authentication](https://stackoverflow.com/a/70583572)
+- [Generate a personal access token](https://github.com/settings/tokens/new)
+- https://github.com/settings/tokens
+- https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps
+- https://www.rubydoc.info/github/pengwynn/octokit/Octokit%2FClient%2FUsers:exchange_code_for_token
